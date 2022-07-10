@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+// import leetcode from "../leetcode.svg";
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -65,14 +66,9 @@ const Header = () => (
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      {/* <SocialIcons
-        href="https://www.instagram.com/himanshupandey142/"
-        target="blank"
-      >
-        <AiFillInstagram size="3rem" />
-      </SocialIcons> */}
       <SocialIcons href="https://leetcode.com/schafermike960/" target="blank">
         <AiFillGithub size="3rem" />
+        {/* <img src={leetcode} alt="leetcode" /> */}
       </SocialIcons>
     </Div3>
   </Container>
